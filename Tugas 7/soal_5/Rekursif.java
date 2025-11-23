@@ -8,8 +8,7 @@ public class Rekursif {
             return n * faktorial(n - 1);
         }
     }
-    
-    // Method rekursif pangkat
+
     int pangkat(int angka, int pangkat) {
         if (pangkat == 0) {
             return 1;
@@ -18,3 +17,4 @@ public class Rekursif {
         }
     }
 }
+
