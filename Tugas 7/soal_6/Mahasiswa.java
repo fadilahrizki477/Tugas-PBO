@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package soal_6;
+
+/**
+ *
+ * @author muham
+ */
+class Mahasiswa extends Civitas {
+    String npm;
+    String jurusan;
+    
+    Mahasiswa(String n, String npm, String j) {
+        nama = n;
+        status = "Mahasiswa";
+        this.npm = npm;
+        jurusan = j;
+    }
+    
+    void tampilkan() {
+        System.out.println("Nama: " + nama);
+        System.out.println("Status: " + status);
+        System.out.println("NPM: " + npm);
+        System.out.println("Jurusan: " + jurusan);
+    }
+}
